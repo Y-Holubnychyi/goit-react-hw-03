@@ -1,0 +1,59 @@
+.options {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  margin: 5px;
+}
+
+button:nth-child(1) {
+  background-color: #4caf50;
+  color: white;
+}
+
+button:nth-child(1):hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+button:nth-child(2) {
+  background-color: #ffeb3b;
+  color: black;
+}
+
+button:nth-child(2):hover {
+  background-color: #fdd835;
+  transform: scale(1.1);
+}
+
+button:nth-child(3) {
+  background-color: #f44336;
+  color: white;
+}
+
+button:nth-child(3):hover {
+  background-color: #e53935;
+  transform: scale(1.1);
+}
+
+.reset-button {
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.reset-button:hover {
+  background-color: #1976d2;
+  transform: scale(1.1);
+}
