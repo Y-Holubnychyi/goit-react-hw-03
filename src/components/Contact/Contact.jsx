@@ -1,20 +1,20 @@
 import { FaUser, FaPhone } from "react-icons/fa";
-import css from "./Contact.module.css";
+import s from "./Contact.module.css";
 
 function Contact({ name, number, onDelete }) {
   return (
-    <div className={css.contactWrapper}>
-      <div className={css.contactInfo}>
-        <div className={css.infoRow}>
-          <FaUser className={css.icon} />
-          <span className={css.contactName}>{name}</span>
+    <div className={s.contactWrapper}>
+      <div className={s.contactInfo}>
+        <div className={s.infoRow}>
+          <FaUser className={s.icon} />
+          <span className={s.contactName}>{name}</span>
         </div>
-        <div className={css.infoRow}>
-          <FaPhone className={css.icon} />
-          <span className={css.contactNumber}>{number}</span>
+        <div className={s.infoRow}>
+          <FaPhone className={s.icon} />
+          <span className={s.contactNumber}>{number}</span>
         </div>
       </div>
-      <button className={css.deleteButton} onClick={onDelete}>
+      <button className={s.deleteButton} onClick={onDelete}>
         Delete
       </button>
     </div>

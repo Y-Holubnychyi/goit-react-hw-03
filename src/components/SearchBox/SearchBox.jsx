@@ -1,13 +1,13 @@
-import css from "./SearchBox.module.css";
+import s from "./SearchBox.module.css";
 
 function SearchBox({ value, onChange }) {
   return (
-    <div className={css.searchWrapper}>
+    <div className={s.searchWrapper}>
       <input
         type="text"
         value={value}
         onChange={onChange}
-        className={css.searchInput}
+        className={s.searchInput}
         placeholder="Search contacts..."
       />
     </div>
